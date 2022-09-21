@@ -1,0 +1,86 @@
+#registerContainer {
+    margin-top: 3em;
+    padding-top: 2em;
+    /* background-image: url(../assets/panels.svg); */
+    background-size: cover;
+  }
+  
+  .rowContainer {
+    margin-top: 1em;
+    margin-bottom: 7em;
+  }
+  .registerCardPage {
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    width: 50em;
+    min-width: 20em !important;
+  }
+  
+  #noanim-tab-example-tab-su {
+    background: white !important;
+  }
+  
+  a[title="Tech"]:hover {
+    background-color: rgba(43, 58, 117, 0.9);
+  }
+  a.nav-item.nav-link.active {
+    font-weight: 600;
+  }
+  
+  .aLink {
+    text-decoration: underline;
+    margin-left: 0.2em;
+  }
+  
+  .boldFont {
+    font-weight: bold;
+  }
+  
+  .registerCard {
+    margin: 2em !important;
+  }
+  
+  .card-header-tabs {
+    margin-bottom: 0;
+  }
+  
+  #linkText {
+    margin-bottom: 1em;
+  }
+  
+  nav.nav.card-header-tabs.nav-tabs {
+    margin-bottom: 0.5em;
+  }
+  
+  #security {
+    margin-left: 0.5em;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+  }
+  
+  div#securitySection {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  #terms {
+    margin-left: 0px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  @media (max-width: 960px) {
+    #registerContainer {
+      background-image: none;
+      background-size: cover;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #registerContainer {
+      background-image: none;
+      background-size: cover;
+    }
+  }
+  
